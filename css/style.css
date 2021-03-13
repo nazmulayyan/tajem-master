@@ -1,0 +1,697 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+/*=================Navbar css part goes here========================*/
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.menu-main{
+    display: flex;
+}
+.logo{
+    width: 140px;
+}
+.logo img{
+    padding-top: 15px;
+}
+.menu{
+    width: 800px;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    padding-left: 25px;
+}
+.menu ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 72px;
+    transition: all linear .5s;
+}
+.menu ul li a:hover{
+    color: #00e0d0;
+}
+
+/*=================Navbar css part end here========================*/
+/*=================banner css part goes here========================*/
+.banner-img{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-overlay{
+    padding-top: 218px;
+    padding-bottom: 215px;
+    background-image: linear-gradient(to right, rgba(10, 5, 48, 0.85) ,rgba(35, 21, 78, 0.85), rgba(49, 29, 94, 0.85));
+}
+.banner-text h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 32px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 43px;
+    position: relative;
+}
+.banner-text h3::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: #00e0d0;
+    left: 47%;
+    bottom: 25px;
+}
+.banner-text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 116px;
+}
+.banner-btn{
+    text-align: center;
+    padding-top: 56px;
+}
+.banner-btn a{
+    border: 1px solid #00e0d0;
+    padding: 14px 17px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+}
+.border-round {
+    padding-top: 136px;
+    text-align: center;
+    display: flex;
+    left: 48%;
+    position: absolute;
+}
+.border-round .border{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #bab9bc;
+    border-radius: 50px;
+    left: 50%;
+    margin-right: 5px;
+    transition: all linear .5s;
+}
+.border-round .border:hover{
+    background-color: #00e0d0;
+    border: none;
+}
+/*=================Navbar css part end here========================*/
+/*=================story css part goes here========================*/
+.story-main{
+    padding-top: 70px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.story-logo{
+    width: 236px;
+}
+.story-text{
+    width: 540px;
+}
+.story-text h4{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413d4b;
+    text-transform: capitalize;
+    padding-bottom: 18px;
+}
+.story-text h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #413d4b;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 18px;
+}
+.story-text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #413d4b;
+    font-size: 14px;
+    line-height: 22px;
+}
+.story-btn{
+    
+    padding-top: 37px;
+}
+.story-btn a{
+    border: 1px solid #00e0d0;
+    padding: 14px 17px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+}
+/*=================story css part end here========================*/
+/*=================vedio css part goes here========================*/
+.video-img{
+    background: url(../images/vedio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.video-overlay{
+    padding-top: 195px;
+    padding-bottom: 196px;
+    background-image: linear-gradient(to right, rgba(10, 5, 48, 0.85) ,rgba(35, 21, 78, 0.85), rgba(49, 29, 94, 0.85));
+}
+.vedio-text{
+    text-align: center;
+}
+.vedio-text i{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 45px;
+    color: #ffffff;
+    padding-bottom: 24px;
+    line-height: 100px;
+}
+.vedio-text h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 30px;
+}
+/*=================vedio css part end here========================*/
+/*=================intro css part goes here========================*/
+.intro{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.intro h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413d4b;
+    text-transform: capitalize;
+    padding-bottom: 6px;
+}
+.intro p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2f2d35;
+    position: relative;
+}
+.intro p::after{
+    position: absolute;
+    content: '';
+    left: 48%;
+    top: 36px;
+    width: 50px;
+    height: 2px;
+    background-color: #c6c4c9;
+}
+/*=================intro css part end here========================*/
+/*=================EXPERTISE css part goes here========================*/
+.expart-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 24px;
+}
+.expart-item{
+    width: 257px;
+    text-align: center;
+    padding-bottom: 76px;
+}
+.expart-item img{
+    width: 50px;
+    height: 50px;
+    
+}
+.expart-item h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #413d4b;
+    padding-top: 27px;
+}
+.expart-item p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+    padding-top: 19px;
+
+}
+/*=================EXPERTISE css part end here========================*/
+/*=================meet css part goes here========================*/
+#team{
+    background-image: url(../images/meet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.team-overlay{
+	padding-top: 62px;
+    padding-bottom: 78px;
+    background-image: linear-gradient(to right, rgba(10, 5, 48, 0.85) ,rgba(35, 21, 78, 0.85), rgba(49, 29, 94, 0.85));
+}
+.team-text{
+	text-align: center;
+}
+
+.team-text h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-bottom: 6px;
+}
+.team-text p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #f9f9f9;
+    position: relative;
+}
+.team-text p::after{
+    position: absolute;
+    content: '';
+    left: 48%;
+    top: 36px;
+    width: 50px;
+    height: 2px;
+    background-color: #655c80;
+}
+.team-main{
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.team-item{
+    width: 220px;
+}
+.team-item-text{
+    text-align: center;
+    border: 1px solid #767589;
+    margin-top: -4px;
+}
+.team-item-text h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 18px;
+}
+.team-item-text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #fafafa;
+    padding-top: 8px;
+    padding-bottom: 21px;
+}
+.team-bottom-text{
+    padding-top: 67px;
+    text-align: center;
+}
+.team-bottom-text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #f3f3f3;
+}
+.team-bottom-btn{
+    text-align: center;
+    padding-top: 34px;
+}
+.team-bottom-btn a{
+    border: 1px solid #00e0d0;
+    border-radius: 2px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+    padding: 9px 15px;
+}
+/*=================meet css part end here========================*/
+/*=================work css part goes here========================*/
+.work-intro{
+    padding-top: 70px;
+    padding-bottom: 47px;
+    text-align: center;
+}
+.work-intro h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413d4b;
+    text-transform: capitalize;
+    padding-bottom: 6px;
+}
+.work-intro p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2f2d35;
+    position: relative;
+}
+.work-intro p::after{
+    position: absolute;
+    content: '';
+    left: 48%;
+    top: 36px;
+    width: 50px;
+    height: 2px;
+    background-color: #c6c4c9;
+}
+.work-course-main{
+    display: flex;
+    justify-content: space-between;
+    width: 800px; 
+    padding-left: 209px;
+    padding-bottom: 50px;
+}
+
+.work-course-main a{
+    border: 1px solid #dddddd;
+    padding: 9px 9px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #413d4b;
+    text-transform: capitalize;
+    background-color: #ffffff;
+}
+.color-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.color-item img{
+    width: 16.66%;
+}
+.work-bottom-btn{
+    text-align: center;
+    padding: 80px;
+}
+.work-bottom-btn a{
+    border: 1px solid #00e0d0;
+    border-radius: 2px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+    padding: 9px 15px;
+}
+/*=================work css part end here========================*/
+/*=================quotation css part goes here========================*/
+.quotation-img{
+    background: url(../images/qua.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.quotation-overlay{
+    padding-top: 136px;
+    padding-bottom: 136px;
+    background-image: linear-gradient(to right, rgba(10, 5, 48, 0.85) ,rgba(35, 21, 78, 0.85), rgba(49, 29, 94, 0.85));
+}
+.quotation-text{
+    text-align: center;
+}
+.quotation-text i{
+    padding-bottom: 41px;
+    font-size: 26px;
+    color: #ffffff;
+}
+.quotation-text p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 26px;
+    padding: 0px 71px;
+}
+.quotation-text h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 32px;
+    text-transform: uppercase;
+}
+.quotation-text h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #ffffff;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.quo-round {
+    padding-top: 39px;
+    text-align: center;
+    display: flex;
+    left: 46%;
+    position: absolute;
+}
+.quo-round .q-border{
+    width: 20px;
+    height: 20px;
+    border: 6px solid #ffffff;
+    border-radius: 50px;
+    left: 50%;
+    margin-right: 28px;
+    transition: all linear .5s;
+}
+.quo-round .q-border:hover{
+    background-color: #00e0d0;
+}
+/*=================quotation css part end here========================*/
+/*=================clients css part goes here========================*/
+.form-main{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.form-item{
+    width: 460px;
+}
+.form-item input{
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    padding: 13px 0;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #413d4b;
+    outline: none;
+}
+.form-item textarea{
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    padding: 17px 0;
+    padding-bottom: 89px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #413d4b;
+    outline: none;
+}
+.form-item h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413d4b;
+    padding-top: 61px;
+    padding-bottom: 29px;
+}
+#sub{
+    border: 1px solid #00e0d0;
+    background-color: #ffffff;
+    border-radius: 2px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #00e0d0;
+    padding: 11px 15px;
+    width: 120px;
+}
+.client-item{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.client-item img{
+    width: 160px;
+    margin-bottom: 45px;
+}
+.client-main h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413d4b;
+    padding-top: 61px;
+    padding-bottom: 29px;
+}
+/*=================clients css part end here========================*/
+/*=================footer css part goes here========================*/
+.footer-img{
+    background: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-overlay{
+    padding-top: 68px;
+    padding-bottom: 66px;
+    background-image: linear-gradient(to right, rgba(10, 5, 48, 0.85) ,rgba(35, 21, 78, 0.85), rgba(49, 29, 94, 0.85));
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icon img{
+    width: 129px;
+    height: 50px;
+
+}
+.footer-item{
+    width: 286.33px;
+}
+.footer-text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 26px;
+    padding-top: 18px;
+}
+.footer-head h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #ffffff;
+    padding-top: 20px;
+}
+.footer-text-icon{
+    display: flex;
+    padding-top: 33px;
+}
+.footer-text-icon i{
+    width: 14px;
+    height: 19px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+.footer-text-icon p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: -24px;
+}
+.footer-text-icon3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 33px;
+}
+.footer-text-icon3 h6{
+    width: 211px;
+    border: 1px solid #9e98b1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: none;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-right: -26px;
+}
+.footer-text-icon3 i{
+    font-size: 26px;
+    margin-left: 35px;
+    background-color: #a29bb4;
+    padding: 10px 23px;
+    color: #000000;
+}
+.footer-text-icon4{
+    display: flex;
+    padding-top: 27px;
+}
+.footer-text-icon4 a{
+    border: 1px solid #f3f2f5;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    align-self: center;
+    line-height: 35px;
+    margin-right: 9px;
+}
+.footer-text-icon4 i{
+    color: #ffffff;
+    font-size: 15px; 
+}
+ .copyright p{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 67px;
+}
+.footer-bottom-text{
+    display: flex;
+}
+.footer-bottom-text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    padding-right: 34px;
+    text-transform: uppercase;
+    margin-top: -18px;
+}
+/*=================footer css part end here========================*/
+/*=================Navbar css part goes here========================*/
+
+/*=================Navbar css part end here========================*/
